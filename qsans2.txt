@@ -1,0 +1,87 @@
+1.Oops stands for?
+  
+  object oriented programminng language.
+there are four types are there
+*abstraction
+*inheritance
+*encapsulation
+*polymorphism
+
+2.what is polymorphism?
+
+   in java, we can perform a single action in multiple ways are called polymorphism
+    
+there are two types are there:
+  *method overloading
+  *method overriding
+
+*Method Overloading:
+      .it has same class name same method name but different arguments are passed are called method overloading
+      .it is a compile time polymorphism
+      .it is a static polymorphism
+*Method overriding:
+      .it has different class name, same method name from a existing class are called method overriding
+      .it is a run time polymorphism
+      .it is a dynamic polymorphism
+
+3.what is interface and example in selenium,java?
+    
+      interface is used to achhieve abstarctions. using interface we can't create  object and instantiate variable.
+we can only use public access modifier or default. and it have unimpleted methods only.
+(eg.)
+     WebDriver is an interface in selenium
+     WebDriver driver = new WebDriver();
+
+4.what is abstract class and example?
+    
+      abstract class is a restricted class that cannot create a object. to access the abstract class it must be inherited from other class.
+(eg.)
+     public abstract class student{
+           public void name{
+                  system.out.println("balaji")
+            }
+             public  abstract void department();
+}
+
+5.Difference between multiple inheritance and multilevel inheritance?
+ 
+    *Multiple Inheritance:
+           one class inherit more than one interface or class in a same class are called multiple inheritance
+
+    *Multilevel Inheritance:
+          .one base class is inherit from derived class. the derived class is a base class to inherit some other class is called multilevel inheritance
+          .it can be used in a class level inheritance
+
+6.Is multiple inheritance possible in java?
+   
+     multiple inheritance are not allowed in java because of ambiguity or conflict
+     multiple inheritance is only allowed in interface level.
+
+7.What is the keyword for using inheritance  ?
+
+      extends is the keyword . using extends keyword we can inherit the properities of the class
+          
+8.what is the keyword to connect interface and class?
+
+      impliments is the keyword, to access the interface it must be implements the class with the implements menthod
+the  body of the interface method  is provided by the implement class.
+
+9.what is difference between class and interface?
+   class:
+         *class can be instantiated
+         *class can create object
+         *class cannot support multiple inheritance
+
+   interface:
+             *interface cannot be instantiated
+             *interface cannot create object
+             *interface can support multiple inheritance
+
+10.what is difference between class and abstract class?
+
+abstract:
+        abstract can access both implemented and unimplemented methods
+class:
+     class can implement methods only
+
+ 
